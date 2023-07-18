@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Mukta, Roboto } from "next/font/google";
-import Link from 'next/link'
+import Link from "next/link";
 
 const roboto = Mukta({
   weight: "800",
@@ -20,19 +20,18 @@ export default function Form4() {
             </div>
           </div>
           <Link href="https://www.ivfuture.ro/">
-          <button className=" text-orange-600  rounded-[8px] flex  py-[16px] px-[48px] justify-center items-center gap-[10px] border-orange-600  border-solid border-2 ">
-            Enroll Now!
-            <Image
-              className=" w-6 h-6 "
-              src="/ArrowOrange.png"
-              alt="iv future"
-              width={104}
-              height={102}
-            />
-          </button>
+            <button className=" text-orange-600  rounded-[8px] flex  py-[16px] px-[48px] justify-center items-center gap-[10px] border-orange-600  border-solid border-2 ">
+              Enroll Now!
+              <Image
+                className=" w-6 h-6 "
+                src="/ArrowOrange.png"
+                alt="iv future"
+                width={104}
+                height={102}
+              />
+            </button>
           </Link>
         </div>
-
         <div>
           <Image
             className=" ml-[80px]"
